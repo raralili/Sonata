@@ -74,7 +74,7 @@ dependencies {
     api "com.squareup.retrofit2:retrofit:${version_retrofit}"
     api "com.squareup.retrofit2:converter-gson:${version_retrofit}"
     api "com.squareup.retrofit2:adapter-rxjava2:${version_retrofit}"
-    api 'com.squareup.okhttp3:logging-interceptor:3.14.9'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.14.9'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
